@@ -39,8 +39,8 @@ function main () {
         total_score: total_score, // computed total score
     }
 
-    console.log(results)
     return results;
 }
 
-main(lab1, lab2, lab3, lab4, lab5, lab6, lab8);
+let obj = main(lab1, lab2, lab3, lab4, lab5, lab6, lab8);
+console.log(obj);
